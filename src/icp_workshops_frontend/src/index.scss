@@ -27,9 +27,12 @@ button[type="submit"] {
 }
 
 #greeting {
+  display: flex;
   margin: 10px auto;
   padding: 10px 60px;
   border: 1px solid #222;
+  justify-content: center;
+  justify-items: center;
 }
 
 #greeting:empty {
